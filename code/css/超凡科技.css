@@ -1,0 +1,209 @@
+#chaofankeji{
+    height: 5302px;
+    width: 100%;
+}
+#chaofankeji .header{
+    width: 1140px;
+    height: 83px;
+    margin: auto;
+}
+.header .Logo{
+    width: 400px;
+    text-indent: -999px;
+    height: 83px;
+    background: url(../images/logo.png) no-repeat;
+}
+.header ul{
+    height: 83px;
+    width: 100%;
+}
+.header li{
+    width: 90px;
+    height: 83px;
+    text-align: center;
+    line-height: 83px;
+}
+.header a{
+    display: block;
+}
+.header .yingwen{
+    display: none;
+}
+.header li:hover .zhongwen{
+    display: none;
+}
+.header li:hover .yingwen{
+    display: block;
+}
+
+
+/* ------------------Banner--------------------------- */
+#chaofankeji .banner{
+    width: 100%;
+    height: 448px;
+    background: url(../images/banner.png) no-repeat;
+    background-position: center center;
+}
+
+
+/* -----------------Main1------------------------------ */
+#chaofankeji .main1{
+    width: 100%;
+    height: 726px;
+    background: url(../images/bus_h2.jpg) no-repeat center 42px;
+}
+.main1 p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #666;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 55px;
+    white-space: pre-line;
+}
+.main1 .main1_box{
+    width: 1140px;
+    height: 440px;
+    background: #ccc;
+    margin: auto;
+}
+.main1 .main1_box .box{
+    width: 351px;
+    height: 218px;
+    background: #fff;
+    margin-right: 43px;
+    margin-bottom: 4px;
+}
+.main1 .hidden{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #0099cc;
+}
+.main1 .box:hover img{
+    display: none;
+}
+.main1 .box:hover .hidden{
+    display:block;
+}
+.main1 .hidden span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 66px;
+}
+.main1 .hidden .more{
+    padding-top: 38px;
+    margin-left: 140px;
+}
+
+
+
+/* --------------Main2--------------------------------- */
+#chaofankeji .main2{
+    width: 100%;
+    height: 763px;
+    background: url(../images/clien_h2.jpg) no-repeat center 42px #ebeff1;
+    overflow: hidden;
+}
+.main2 .main2_p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    padding-top: 56px;
+    margin-top: 57px;
+}
+
+.main2 .main2_box{
+    width: 1138px;
+    height: 502px;
+    margin: auto;
+    margin-top: 57px;
+    background: #ebeff1;
+}
+.main2 .box{
+    width: 283px;
+    height: 166px;
+    background: white;
+    border-bottom: #ebeff1 1px solid;
+    border-right: #ebeff1 1px solid;
+}
+.main2 .box:hover img{
+    display: none;
+}
+.main2 .box .img2{
+    display: none;
+}
+.main2 .box:hover .img2{
+    display: block;
+}
+
+
+
+
+/* ---------------Main3--------------------------------- */
+#chaofankeji .main3{
+    width: 100%;
+    height: 682px;
+    background:url(../images/work_h2.jpg) no-repeat center 42px;
+}
+.main3 p{
+    font-size: 18px;
+    color: #996666;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 56px;
+}
+.main3 .main3_box{
+    width: 1138px;
+    height: 423px;
+    margin: auto;
+}
+.main3 .box{
+    width: 283px;
+    height: 211px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+.main3 .box img{
+    width: 100%;
+    height: 100%;
+}
+.main3 .box:hover img{
+    display: none;
+}
+
+
+/* ---------------Main4--------------------------------- */
+#chaofankeji .main4{
+    width: 100%;
+    height: 801px;
+}
+
+
+/* ---------------Main5--------------------------------- */
+#chaofankeji .main5{
+    width: 100%;
+    height: 912px;
+}
+
+
+/* ---------------Main6--------------------------------- */
+#chaofankeji .main6{
+    width: 100%;
+    height: 224px;
+}
+
+
+
+/* ---------------Footer--------------------------------- */
+#chaofankeji .footer{
+    width: 100%;
+    height: 663px;
+}
+

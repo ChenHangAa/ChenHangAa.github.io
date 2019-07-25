@@ -1,0 +1,470 @@
+#chaofankeji{
+    height: 5414px;
+    width: 100%;
+}
+#chaofankeji .header{
+    width: 1140px;
+    height: 83px;
+    margin: auto;
+}
+.header .Logo{
+    width: 400px;
+    text-indent: -999px;
+    height: 83px;
+    background: url(../images/logo.png) no-repeat;
+}
+.header ul{
+    height: 83px;
+    width: 100%;
+}
+.header li{
+    width: 90px;
+    height: 83px;
+    text-align: center;
+    line-height: 83px;
+}
+.header a{
+    display: block;
+}
+.header .yingwen{
+    display: none;
+}
+.header li:hover .zhongwen{
+    display: none;
+}
+.header li:hover .yingwen{
+    display: block;
+}
+
+
+/* ------------------Banner--------------------------- */
+#chaofankeji .banner{
+    width: 100%;
+    height: 448px;
+    background: url(../images/banner.png) no-repeat;
+    background-position: center center;
+}
+
+
+/* -----------------Main1------------------------------ */
+#chaofankeji .main1{
+    width: 100%;
+    height: 726px;
+    background: url(../images/bus_h2.jpg) no-repeat center 42px;
+}
+.main1 p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #666;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 55px;
+    white-space: pre-line;
+}
+.main1 .main1_box{
+    width: 1140px;
+    height: 440px;
+    background: #ccc;
+    margin: auto;
+}
+.main1 .main1_box .box{
+    width: 351px;
+    height: 218px;
+    background: #fff;
+    margin-right: 43px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.main1 .hidden{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #0099cc;
+}
+.main1 .box:hover img{
+    display: none;
+}
+.main1 .box:hover .hidden{
+    display:block;
+}
+.main1 .hidden span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 66px;
+}
+.main1 .hidden .more{
+    padding-top: 38px;
+    margin-left: 140px;
+}
+.main1 .wenzi{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    width: 150px;
+    height: 70px;
+    background: #0099cc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main1 .box:hover .wenzi{
+    display: none;
+}
+
+
+/* --------------Main2--------------------------------- */
+#chaofankeji .main2{
+    width: 100%;
+    height: 763px;
+    background: url(../images/clien_h2.jpg) no-repeat center 42px #ebeff1;
+    overflow: hidden;
+}
+.main2 .main2_p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    padding-top: 56px;
+    margin-top: 57px;
+}
+
+.main2 .main2_box{
+    width: 1138px;
+    height: 502px;
+    margin: auto;
+    margin-top: 57px;
+    background: #ebeff1;
+}
+.main2 .box{
+    width: 283px;
+    height: 166px;
+    background: white;
+    border-bottom: #ebeff1 1px solid;
+    border-right: #ebeff1 1px solid;
+}
+.main2 .box:hover img{
+    display: none;
+}
+.main2 .box .img2{
+    display: none;
+}
+.main2 .box:hover .img2{
+    display: block;
+}
+
+
+
+
+/* ---------------Main3--------------------------------- */
+#chaofankeji .main3{
+    width: 100%;
+    height: 682px;
+    background:url(../images/work_h2.jpg) no-repeat center 42px;
+}
+.main3 p{
+    font-size: 18px;
+    color: #996666;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 56px;
+}
+.main3 .main3_box{
+    width: 1138px;
+    height: 423px;
+    margin: auto;
+}
+.main3 .box{
+    width: 283px;
+    height: 211px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+.main3 .box img{
+    width: 100%;
+    height: 100%;
+}
+.main3 .box:hover img{
+    display: none;
+}
+
+
+/* ---------------Main4--------------------------------- */
+#chaofankeji .main4{
+    width: 100%;
+    height: 801px;
+    background: url(../images/ind_news_bg.jpg) no-repeat;
+}
+#chaofankeji .news{
+    width: 100%;
+    height: 801px;
+    background: url(../images/news_h2.jpg) no-repeat center 42px;
+}
+
+.main4 .news_p{
+    font-size: 18px;
+    color: white;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 56px;
+}
+.main4 .main4_box{
+    width: 1200px;
+    height: 528px;
+    margin: auto;
+}
+.main4 .main4_box .box{
+    width: 550px;
+    height: 166px;
+    background: white;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+.main4 .text_p{
+    font-size: 12px;
+    margin-left: 28px;
+    margin-top: 18px;
+    line-height: 22px;
+    margin-right: 36px;
+}
+.main4 .span1{
+    font-size: 10px;
+    color: #d5cccc;
+    margin-top: 10px;
+    margin-left: 28px;
+    float: left;
+    margin-bottom: 20px;
+}
+.main4 .span2{
+    font-size: 10px;
+    color: #d5cccc;
+    margin-top: 10px;
+    margin-right: 36px;
+    float: right;
+}
+.main4 a{
+    color: #d5cccc;
+}
+.main4 .text{
+    width: 380px;
+    height: 166px;
+}
+.main4 h2{
+    height: 16px;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 28px;
+    margin-top: 28px;
+    font-weight: 650;
+}
+.main4 .a2{
+    color: #333333;
+}
+.main4 .a2:hover{
+    color:#0099cc;
+}
+.main4 a:hover{
+    color:#0099cc;
+}
+
+
+
+
+/* ---------------Main5--------------------------------- */
+#chaofankeji .main5{
+    width: 100%;
+    height: 912px;
+
+}
+.main5 .main5_top{
+    width: 1140px;
+    height: 166px;
+    margin: auto;
+    background: url(../images/exp_h2.jpg) no-repeat center;
+}
+.main5 .main5_top p{
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    line-height: 18px;
+    padding-top: 145px;
+}
+.main5 .main5_bottom{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    margin-top: 0;
+
+}
+
+
+
+/* ---------------Main6--------------------------------- */
+#chaofankeji .main6{
+    width: 100%;
+    height: 224px;
+    background: url(../images/blue.png);
+    overflow: hidden;
+}
+.main6 .big{
+    height: 131px;
+    width: 1136px;
+    margin-top: 47px;  
+    margin: auto;
+}
+.main6 .small{
+    height: 100%;
+    width: 378px; 
+    text-align: center;
+    margin: auto;
+    position: relative;
+    border-right: #0052a7 1px solid;
+    margin-top: 57px;
+}
+.main6 h3{
+    text-align: center;
+}
+.main6 .shuzi{
+    color: white;
+    font-size: 67px;
+    line-height: 67px;
+}
+.main6 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 32px;
+}
+.main6 .kong{
+    width: 100%;
+    background: url(../images/blue.png);
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+/* ---------------Footer--------------------------------- */
+#chaofankeji .footer{
+    width: 100%;
+    height: 775px;
+    background-size: 100% 100%;
+    background:url(../images/footer_bj.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.footer h1{
+    font-size: 45px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 42px;
+    font-weight: 150;
+    
+}
+.footer .p1{
+    font-size: 22px;
+    text-align: center;
+    color: #ccc;
+    margin-top: 42px;
+    margin-bottom: 52px;
+}
+.footer .box{
+    width: 1200px;
+    height: 82px;
+    margin: auto;
+}
+.footer .box .top{
+    width: 266px;
+    height: 80px;
+    margin-left: 30px;
+}
+.footer .zong{
+    padding-left: 14px;
+}
+.footer .top .zi{
+    color: #cbcbcb;
+}
+.footer .top .shu{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer .box2{
+    width: 1200px;
+    height: 82px;
+    margin: auto;
+}
+
+.footer .box2 .bottom{
+    width: 264px;
+    height: 78px;
+    border: 1px #333333 solid;
+    background: url(../images/foot_c1.png) no-repeat;
+    margin-right: 45px;
+}
+
+.footer .box2 .hanzi{
+    color: #aaaaaa;
+    font-size: 16px;
+    padding-left: 70px;
+    line-height: 16px;
+    padding-top: 34px;
+}
+
+.footer .zhong{
+    width: 1200px;
+    height: 270px;
+    margin: auto;
+}
+.footer .zhong .lianxi{
+    font-size: 12px;
+    color: #7f7f7f;
+    line-height: 12px;
+    width: 788px;
+    height: 222px;
+    line-height: 30px;
+    margin-top: 80px;
+}
+.footer .erweima{
+    width: 330px;
+    height: 166px;
+    margin-top: 80px;
+}
+.footer .erweima p{
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding-top:10px; 
+    padding-right: 30px;
+}
+.footer .erweimazuo{
+    height: 100%;
+    width: 165px;
+}
+.footer .lianxi:hover p{
+    color: #fff;
+}
+
+.footer .wei{
+    height: 110px;
+    width: 100%;
+}
+.footer .wei .xian{
+    display: block;
+    width: 100%;
+    background: #666;
+    height: 1px;
+}
+.footer .wei p{
+    color: #666;
+}

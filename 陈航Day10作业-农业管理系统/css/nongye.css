@@ -1,0 +1,213 @@
+html,body{
+    height: 100%;
+}
+
+.nongye{
+    height: 100%;
+    background:pink;
+}
+
+/* --------------------top--------------------------- */
+.top{
+    height: 87px;
+    background: #7ab5e9;
+    position: relative;
+    border-bottom: 1px solid #265fa6;
+}
+.top h2{
+    font-size: 24px;
+    color: white;
+    line-height: 87px;
+    position: absolute;
+    left: 30px;
+} 
+.top .admin{
+    height: 22px;
+    width: 265px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    text-align: center; 
+}
+.top .span1{
+    font-size: 10px;
+}
+
+.top li{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 55px;
+    width: 86px;
+    margin-top: 32px;
+    background: url(../images/libj.png) no-repeat;
+}
+.top .spann{
+    display: block;
+    height: 55px;
+    width: 86px;
+
+}
+.top a{
+    display: inline-block;
+    color: white;
+    width: 86px;
+
+}
+
+/* -------------------bottom-------------------------- */
+.bottom{
+ height: calc(100% - 87px);
+ background: black;   
+ border-top: 1px solid #407fc2;
+}
+
+
+
+/* ....................left.............................. */
+.left{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #417ec8;
+    border-top: 1px solid #265fa6;
+}
+.left .left_top{
+    width: 100%;
+    height: 26px;
+    background: url(../images/e_01.jpg);
+    border-bottom: 1px solid #4f93d0;
+}
+
+.left .left_bottom{
+    height:calc(100% - 28px);
+    width: 100%;
+}
+
+.left .leftul1{
+    width: 198px;
+    height: 500px;
+
+    
+}
+.left .leftli1{
+    width: calc(100% - 2px);
+    border: #0b65b1 1px solid;
+    line-height: 30px;
+    font-size: 12px;
+
+}
+.leftul2{
+    width: 100%;
+    height: 100%;
+    background: #417ec8;
+}
+.leftli2{
+    display: none;
+    font-size: 12px;
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    color: #b9ddff;
+}
+.left .tup{
+    padding: 0 15px;
+}
+.left .tupp{
+    padding-left: 57px;
+    padding-right: 6px;
+}
+.leftli1:hover .leftli2{
+    display: block;
+}
+.left .leftli1:hover{
+    background: url(../images/left_hover.jpg) no-repeat;
+}
+.left .leftli1:hover a{
+    color: #000;
+}
+.leftli1 a{
+    color: white;
+}
+
+
+
+
+
+
+/* ....................right............................. */
+.right{
+    width: calc(100% - 200px);
+    height: 100%;
+    background: white;
+    float: left;
+    border-top: 1px solid #265fa6;
+    position: relative;
+}
+.right .content{
+    width: calc(100% - 15px);
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.right1{
+    height: 24px;
+    width: 100%;
+}
+.right .rtopp{
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    padding-left: 32px;
+    background: url(../images/home.jpg) no-repeat 15px center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.right2{
+    border-bottom: 1px solid #e3e3e3;
+}
+.r2img1{
+    padding-left: 12px;
+}
+.r2span1{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.right2 input{
+    border: 1px solid black;
+}
+.right2 .spanmingcheng{
+    margin: 0 20px 0 30px;
+}
+.right2 .spanchaxun{
+    margin-left: 24px;
+}
+
+.right3{
+    text-align: center;
+}
+table{
+    width: 95%;
+    margin-top: 15px;
+    height: 375px;
+    border: 1px solid #d6d6d6;
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+}
+.right3 tr{
+    border: 1px solid #e3e3e3;
+    font-size: 11px;
+    text-align: center;
+    height: 30px;
+}
+
+.right3 tr:nth-child(2n){
+    background: #f1f1f1;
+}
+.right3 tbody tr:nth-child(1){
+    font-weight: 700;
+}

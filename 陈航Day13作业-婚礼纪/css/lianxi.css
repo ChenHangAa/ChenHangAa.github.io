@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+}
+
+.box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.header,.footer{
+    height: 100px;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    line-height: 100px;
+}
+.body{
+    flex: 1;
+    display: flex;
+}
+
+.nav{
+    width: 200px;
+    background: blue;
+}
+
+.aside{
+    width: 160px;
+    background: orange;
+}
+
+.main{
+    flex: 1;
+    background: chartreuse;
+}

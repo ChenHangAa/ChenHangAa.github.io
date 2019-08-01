@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+
+.box{
+    width: 870px;
+    height: 200px;
+    background: white;
+    display: flex;   
+    justify-content: space-around   ;
+    align-items: center; 
+
+}
+
+.box li{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0px -5px 0px 0px #bbbbbb inset
+    ,0px 5px 0px 0px white inset
+    ,-5px 0px 0px 0px #d7d7d7 inset
+    ,5px 0px 0px 0px #d7d7d7 inset;
+    display: flex;
+}
+.box li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box li span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #000;
+}
+
+
+ul li:nth-child(1){
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------between------------------ */
+ul li:nth-child(2),
+ul li:nth-child(3),
+ul li:nth-child(4),
+ul li:nth-child(5),
+ul li:nth-child(6)
+{
+    justify-content: space-between;
+}
+
+/* -------------center-------------- */
+ul li:nth-child(3) span:nth-child(2)
+{
+    align-self: center;
+}
+
+
+/* -----------------end----------------- */
+ul li:nth-child(2) span:nth-child(2),
+ul li:nth-child(3) span:nth-child(3)
+{
+    align-self: flex-end;
+}
+
+
+
+
+
+ul li:nth-child(5) div:nth-child(2){
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

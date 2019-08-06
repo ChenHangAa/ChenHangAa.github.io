@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#zhifubao {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 4.266667rem;
+  background: #000;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  height: 1.333333rem;
+  background: #000;
+}

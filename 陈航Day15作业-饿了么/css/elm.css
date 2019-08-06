@@ -1,0 +1,420 @@
+@charset "UTF-8";
+#elm {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#elm .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 2.533333rem;
+  background: #0195ff;
+}
+
+#elm .header .content {
+  width: 9.466667rem;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#elm .header .content .dress {
+  flex: 1;
+  font-size: .426667rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#elm .header .content .dress img {
+  height: .4rem;
+  width: .4rem;
+}
+
+#elm .header .content .dress .xiala {
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  left: 3.4rem;
+  top: .266667rem;
+}
+
+#elm .header .content .sousuo {
+  flex: 1;
+  position: relative;
+}
+
+#elm .header .content .sousuo .fangdajing {
+  width: .4rem;
+  height: .4rem;
+  position: absolute;
+  left: 2.133333rem;
+  top: .293333rem;
+}
+
+#elm .header .content .sousuo input {
+  text-align: center;
+  height: .96rem;
+  width: 100%;
+}
+
+#elm .main {
+  flex: 1;
+}
+
+#elm .main .nav {
+  margin-top: 2.533333rem;
+  height: 4.666667rem;
+}
+
+#elm .main .nav ul {
+  height: 4.666667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#elm .main .nav ul .ulbox {
+  height: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#elm .main .nav ul li {
+  text-align: center;
+}
+
+#elm .main .nav ul li img {
+  width: 1.066667rem;
+  height: .866667rem;
+}
+
+#elm .main .nav ul li a {
+  display: block;
+  font-size: .32rem;
+  text-decoration: none;
+  color: #696969;
+}
+
+#elm .main .banner {
+  height: 6.666667rem;
+  width: 100%;
+}
+
+#elm .main .banner .content {
+  width: 9.466667rem;
+  height: 100%;
+  margin: auto;
+}
+
+#elm .main .banner .content .banner1 {
+  overflow: hidden;
+  height: 2.933333rem;
+  background: url(../images/list1.webp) no-repeat 5.33333rem 0.4rem #f7f7f7;
+  background-size: 3.666667rem 2.066667rem;
+}
+
+#elm .main .banner .content .banner1 h2 {
+  margin-top: .373333rem;
+  line-height: .666667rem;
+  font-size: .426667rem;
+  font-weight: 800;
+  padding-left: .213333rem;
+}
+
+#elm .main .banner .content .banner1 .bannerp1 {
+  line-height: .666667rem;
+  color: #797979;
+  font-size: .32rem;
+  padding-left: .213333rem;
+}
+
+#elm .main .banner .content .banner1 .bannerp2 a {
+  padding-left: .213333rem;
+  line-height: .666667rem;
+  font-size: .293333rem;
+  color: #b18268;
+}
+
+#elm .main .banner .content .banner2 {
+  padding-top: .093333rem;
+  width: 100%;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  background: url(../images/热销-皇冠.png) no-repeat 0.4rem 0.32rem #f6e1a8;
+  background-size: .48rem .426667rem;
+}
+
+#elm .main .banner .content .banner2 .banner2span0 {
+  font-size: .346667rem;
+  font-weight: 800;
+  color: #64501e;
+  padding-left: 1.066667rem;
+}
+
+#elm .main .banner .content .banner2 .banner2span1 {
+  font-size: .266667rem;
+  color: #64501e;
+  font-weight: 600;
+}
+
+#elm .main .banner .content .banner2 .banner2span2 {
+  font-size: .266667rem;
+  color: #64501e;
+  font-weight: 600;
+  padding-left: 2.506667rem;
+}
+
+#elm .main .banner .content .banner3 {
+  margin-top: .133333rem;
+  height: 2.346667rem;
+  width: 100%;
+}
+
+#elm .main .banner .content .banner3 img {
+  width: 9.466667rem;
+  height: 2.346667rem;
+}
+
+#elm .main .shangjia {
+  width: 100%;
+}
+
+#elm .main .shangjia .content {
+  width: 9.466667rem;
+  height: 100%;
+  margin: auto;
+}
+
+#elm .main .shangjia .content .tuijian {
+  height: 2.666667rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#elm .main .shangjia .content .tuijian .top {
+  height: .666667rem;
+  display: flex;
+  justify-content: center;
+  font-size: .4rem;
+  font-weight: 700;
+}
+
+#elm .main .shangjia .content .tuijian .bottom {
+  width: 100%;
+  height: .666667rem;
+}
+
+#elm .main .shangjia .content .tuijian .bottom ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#elm .main .shangjia .content .tuijian .bottom ul li {
+  width: 2rem;
+  height: .666667rem;
+  text-align: center;
+}
+
+#elm .main .shangjia .content .tuijian .bottom ul :nth-child(1) {
+  background: url(../images/下拉2.png) no-repeat 1.72rem 0.1rem;
+  background-size: 0.22rem 0.22rem;
+}
+
+#elm .main .shangjia .content .tuijian .bottom ul :nth-child(4) {
+  background: url(../images/筛选.png) no-repeat 1.4rem 0.08rem;
+  background-size: 0.34rem 0.34rem;
+}
+
+#elm .main .shangjia .content ul {
+  width: 100%;
+}
+
+#elm .main .shangjia .content ul li {
+  height: 4.666667rem;
+}
+
+#elm .main .shangjia .content ul li .liimg {
+  float: left;
+  margin-top: .4rem;
+  height: 1.706667rem;
+  width: 1.706667rem;
+  border: .013333rem solid #f9f9f9;
+}
+
+#elm .main .shangjia .content ul li .liimg img {
+  height: 1.706667rem;
+  width: 1.706667rem;
+}
+
+#elm .main .shangjia .content ul li .litext {
+  float: right;
+  margin-top: .08rem;
+  width: 7.44rem;
+  height: 4.666667rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul {
+  width: 7.466667rem;
+  height: 2.773333rem;
+  border-bottom: .02rem #ccc dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(1) {
+  width: 100%;
+  height: .48rem;
+  position: relative;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(1) span {
+  font-size: 0.273333rem;
+  font-weight: 600;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(1) .imga {
+  width: .633333rem;
+  height: .366667rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(1) .imgg {
+  width: .266667rem;
+  height: .133333rem;
+  position: absolute;
+  right: .266667rem;
+  top: .093333rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(2) {
+  width: 100%;
+  height: .48rem;
+  position: relative;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(2) span {
+  font-size: .266667rem;
+  color: #6a6a6a;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(2) .imgb {
+  width: 1.533333rem;
+  height: .266667rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(2) .imgc {
+  width: 1.146667rem;
+  height: .346667rem;
+  position: absolute;
+  right: 0;
+  top: 0.076667rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(3) {
+  width: 100%;
+  height: .48rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(3) .spanaa {
+  width: 3.3rem;
+  color: #acacac;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(3) .spanbb {
+  width: 2.26667rem;
+  color: #acacac;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(4) {
+  width: 100%;
+  height: .78rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(4) .spancc {
+  margin-right: .133333rem;
+  line-height: .46rem;
+  text-align: center;
+  float: left;
+  display: block;
+  width: 1.453333rem;
+  height: .46rem;
+  border: .013333rem solid #ccc;
+  color: #808080;
+  font-size: .24rem;
+}
+
+#elm .main .shangjia .content ul li .litext ul :nth-child(4) .spandd {
+  text-align: center;
+  line-height: .46rem;
+  float: left;
+  display: block;
+  width: 1.453333rem;
+  height: .46rem;
+  border: .013333rem solid #ccc;
+  font-size: .24rem;
+}
+
+#elm .main .shangjia .content ul li .litext .youhui {
+  height: 1.466667rem;
+}
+
+#elm .main .shangjia .content ul li .litext .youhui p {
+  position: relative;
+}
+
+#elm .main .shangjia .content ul li .litext .youhui p .span4 {
+  font-size: .266667rem;
+  color: #b4b4b4;
+  position: absolute;
+  right: .25rem;
+}
+
+#elm .main .shangjia .content ul li .litext .youhui p span {
+  color: #636363;
+  font-size: .266667rem;
+}
+
+#elm .main .shangjia .content ul li .litext .youhui p img {
+  height: .373333rem;
+  width: .373333rem;
+}
+
+#elm .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.333333rem;
+  border-top: #ededed solid .013333rem;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#elm .footer .footerlist {
+  text-align: center;
+}
+
+#elm .footer .footerpp {
+  height: 0.866667rem;
+  width: 0.866667rem;
+}
+
+#elm .footer img {
+  height: .48rem;
+  width: .48rem;
+}
+
+#elm .footer p {
+  font-size: .266667rem;
+  color: #8f8f91;
+}
